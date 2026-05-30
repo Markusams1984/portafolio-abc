@@ -1,0 +1,18 @@
+{
+  "name": "portafolio-abc-consultants",
+  "version": "1.0.0",
+  "description": "Portafolio profesional estático estructurado con arquitectura SRC",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "echo \"Entorno configurado. Abriendo punto de entrada en src/index.html\""
+  },
+  "keywords": [
+    "ibm",
+    "portfolio",
+    "src-architecture",
+    "html",
+    "css"
+  ],
+  "author": "Marco Andrés Muñoz Silva",
+  "license": "MIT"
+}

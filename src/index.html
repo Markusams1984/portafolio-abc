@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional - ABC Consultants</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Juan Pérez</div>
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+        
+        <div class="home-icon">🏠</div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <img src="https://via.placeholder.com/150" alt="Foto de Juan Pérez" class="profile-img">
+                
+                <div class="about-text">
+                    <h1>Juan Pérez</h1>
+                    <h3>Desarrollador Web Front-End</h3>
+                    <p>
+                        Hola, soy un desarrollador web con pasión por crear experiencias digitales limpias y eficientes. 
+                        Tengo menos de 5 años de experiencia en la industria, especializándome en estructurar, diseñar 
+                        y dar vida a aplicaciones web utilizando tecnologías modernas. Me enfoco en resolver problemas 
+                        complejos con código simple y elegante.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Habilidades Técnicas</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-logo">🌐</div>
+                    <span class="skill-name">HTML5</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-logo">🎨</div>
+                    <span class="skill-name">CSS3</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-logo">⚡</div>
+                    <span class="skill-name">JavaScript (ES6)</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-logo">🐙</div>
+                    <span class="skill-name">Git & GitHub</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Calculadora Financiera</h3>
+                    <p>Una herramienta interactiva para calcular intereses y amortizaciones en tiempo real.</p>
+                    <a href="#" class="btn-link">Ver Repositorio</a>
+                </div>
+                <div class="project-card">
+                    <h3>E-commerce Store</h3>
+                    <p>Tienda online completa con catálogo de productos y carrito de compras funcional.</p>
+                    <a href="#" class="btn-link">Ver Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Task Tracker</h3>
+                    <p>Aplicación de gestión de tareas con persistencia de datos local para productividad.</p>
+                    <a href="#" class="btn-link">Saber Más</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommendations" class="recommendations-section">
+            <h2>Recomendaciones</h2>
+            
+            <div id="all_recommendations" class="recommendations-container">
+                <div class="recommendation-card">
+                    <p>"Juan es un desarrollador excepcional. Su capacidad para resolver problemas complejos con soluciones simples es admirable."</p>
+                    <cite>— Roberto Sánchez, Senior Manager en TechSolutions</cite>
+                </div>
+                <div class="recommendation-card">
+                    <p>"Trabajar con Juan fue un placer. Tiene un dominio impresionante de CSS y siempre entrega a tiempo."</p>
+                    <cite>— María García, Líder de Diseño UI/UX</cite>
+                </div>
+                <div class="recommendation-card">
+                    <p>"Su enfoque en el detalle y la calidad del código lo hacen destacar entre otros desarrolladores junior."</p>
+                    <cite>— Carlos Ruiz, Director de Ingeniería</cite>
+                </div>
+            </div>
+
+            <div class="add-recommendation">
+                <h3>Deja una recomendación</h3>
+                <textarea id="new_recommendation" placeholder="Escribe aquí tu recomendación..."></textarea>
+                <button id="submit_btn" onclick="addRecommendation()">Enviar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

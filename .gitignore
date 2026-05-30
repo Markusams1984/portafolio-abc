@@ -1,0 +1,14 @@
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Carpetas de dependencias (Node.js)
+node_modules/
+dist/
+.env
+
+# Configuraciones locales de editores
+.vscode/
+.idea/
+*.log
